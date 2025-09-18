@@ -126,6 +126,15 @@ nav {
   aspect-ratio: 16/9;
 }
 
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+}
+
 
 
 
