@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Roboto', 'Noto Sans Thai', sans-serif;
 }
 .header {
@@ -21,6 +23,7 @@ hr {
 nav {
   display: flex;
   justify-content: center;
+  padding: 8px 16px;
   gap: 24px;
 }
 
@@ -89,3 +92,30 @@ nav {
 .dropdown:hover .drop-btn::after {
   transform: rotate(180deg);
 }
+
+.about {
+  max-width: 800px;
+  margin: auto; 
+  text-align: justify; 
+  line-height: 1.5; 
+  font-size: 16px;   
+  color: #333;
+}
+
+.about h2 {
+  font-size: 36px;
+  letter-spacing: 1.5 px;
+  text-align: center;
+}
+
+.about p {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
