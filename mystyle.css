@@ -1,0 +1,19 @@
+body {
+  font-family: 'Roboto', 'Noto Sans Thai', sans-serif;
+}
+.header {
+  text-align: center;
+  padding: 8px;
+  background: #fff;             
+}
+
+.header img {
+  height: 100px;
+  width: auto;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  width: 60%;
+}
