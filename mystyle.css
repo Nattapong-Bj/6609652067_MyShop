@@ -112,7 +112,19 @@ nav {
   margin-bottom: 20px;
 }
 
+.v {
+  text-align: center;
+  padding: 20px;
+}
 
+.v video {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+  width: 1000px;
+  aspect-ratio: 16/9;
+}
 
 
 
