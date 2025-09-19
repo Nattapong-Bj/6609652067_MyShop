@@ -3,10 +3,11 @@ body {
   padding: 0;
   font-family: 'Roboto', 'Noto Sans Thai', sans-serif;
 }
+
 .header {
   text-align: center;
   padding: 8px;
-  background: #fff;             
+  background: #fff;
 }
 
 .header img {
@@ -48,7 +49,7 @@ nav {
   background: #f6b8a0;
   color: white;
   font-weight: bold;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown {
@@ -62,10 +63,10 @@ nav {
   background: white;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0,0,0,.08);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .08);
   padding: 0;
   display: none;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .dropdown:hover .drop-menu {
@@ -95,10 +96,10 @@ nav {
 
 .about {
   max-width: 800px;
-  margin: auto; 
-  text-align: justify; 
-  line-height: 1.5; 
-  font-size: 16px;   
+  margin: auto;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16px;
   color: #333;
 }
 
@@ -106,10 +107,54 @@ nav {
   font-size: 36px;
   letter-spacing: 1.5 px;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .about p {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+}
+
+.menu-header {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.menu-item {
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.menu-item p {
+  margin-top: 4px;
+  padding: 4px;
+  font-size: 16px;
+}
+
+.menu-name {
+  display: block;
+  font-weight: bold;
+}
+
+.menu-price {
+  display: block;
+  color: black;
 }
 
 .v {
@@ -134,9 +179,3 @@ footer {
   font-size: 14px;
   width: 100%;
 }
-
-
-
-
-
-
