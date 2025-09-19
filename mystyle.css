@@ -94,6 +94,11 @@ nav {
   transform: rotate(180deg);
 }
 
+.poster-img {
+    margin-top: 20px;
+    margin-bottom: 50px; 
+}
+
 .about {
   max-width: 800px;
   margin: auto;
